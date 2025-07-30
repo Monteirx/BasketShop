@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  mongo:
+    container_name: mongodb
+    image: mongodb/mongodb-community-server:7.0.20-ubuntu2204
+    environment:
+      MONGO_DATA_DIR: /data/db
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+  redis:
+    container_name: redis
+    image: redis:8.0.3
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '6379:6379'
+
+volumes:
+  mongo-data:
