@@ -3,7 +3,7 @@
 > Um serviço simples e eficiente de gerenciamento de carrinho de compras, utilizando tecnologias modernas para oferecer performance e escalabilidade.
 
 ---
-
+[Projeto do curso Java10x]
 ## 🔗 Índice
 
 1. [Sobre o Projeto](#sobre-o-projeto)
