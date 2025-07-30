@@ -8,7 +8,7 @@
 
 1. [Sobre o Projeto](#sobre-o-projeto)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-    - [Java 17](#java-17)
+    - [Java 21](#java-21)
     - [Lombok](#lombok)
     - [Redis](#redis)
     - [MongoDB](#mongodb)
@@ -38,15 +38,13 @@ O projeto faz parte do modulo de Springboot do java10x **java10x** é um serviç
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
-### Java 17
+### Java 21
 - A versão mais moderna da linguagem Java, focada em desempenho e funcionalidades aprimoradas.
-- Saiba mais: [Documentação oficial do Java](https://openjdk.org/projects/jdk/17/)
-- Material de aula: https://aluno.java10x.dev/187812-batismo-de-java
+- Saiba mais: [Documentação oficial do Java](https://openjdk.org/projects/jdk/21/)
 
 ### Lombok
 - Reduz a verbosidade do código, automatizando a criação de getters, setters e construtores.
 - Saiba mais: [Documentação oficial do Lombok](https://projectlombok.org/)
-- Material de aula - https://aluno.java10x.dev/187814-spring10x [Aula 9]
 
 ### Redis
 - Um banco de dados em memória, utilizado como cache para melhorar a performance nas interações com a API externa.
@@ -55,7 +53,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ### MongoDB
 - Banco de dados NoSQL, utilizado para armazenar as informações do carrinho de compras de maneira flexível.
 - Saiba mais: [Documentação oficial do MongoDB](https://www.mongodb.com/docs/)### MongoDB
-- Material de aula - https://aluno.java10x.dev/187814-spring10x [Aula 14]
 
 ### OpenFeign
 - Uma biblioteca que simplifica a integração com APIs externas, tornando a comunicação mais intuitiva e reduzindo a verbosidade do código.
@@ -64,7 +61,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ### Docker
 - Ferramenta de containerização para criar ambientes consistentes e simplificados para deploy.
 - Saiba mais: [Documentação oficial do Docker](https://docs.docker.com/)
-- Material de aula - https://aluno.java10x.dev/209723-docker
 
 ### API Externa
 - Integração com uma API que fornece a lista de produtos disponíveis para o carrinho.
@@ -98,7 +94,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ### Pré-requisitos
 
 - **Docker** (ou instâncias de Redis e MongoDB configuradas localmente)
-- **Java 17**
+- **Java 21**
 - **Maven** (ou use o wrapper mvnw)
 
 
